@@ -1,0 +1,11 @@
+
+{application, cfg,
+  [{description, "configuration registry OTP app"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {cfg_app, []}},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {modules, []},
+    {maintainers, []},
+    {links, []}]}.
